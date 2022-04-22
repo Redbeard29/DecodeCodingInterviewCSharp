@@ -1,0 +1,15 @@
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/DecodeInterviewCSharp.deps.json
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/DecodeInterviewCSharp.runtimeconfig.json
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/DecodeInterviewCSharp.runtimeconfig.dev.json
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/DecodeInterviewCSharp.dll
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/ref/DecodeInterviewCSharp.dll
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/bin/Debug/net5.0/DecodeInterviewCSharp.pdb
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.csproj.AssemblyReference.cache
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.AssemblyInfoInputs.cache
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.AssemblyInfo.cs
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.csproj.CoreCompileInputs.cache
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.dll
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/ref/DecodeInterviewCSharp.dll
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.pdb
+/Users/benjaminsherman/Desktop/Documents/PersonalProjects/Courses/DecodeInterviewCSharp/obj/Debug/net5.0/DecodeInterviewCSharp.genruntimeconfig.cache
