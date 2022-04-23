@@ -1,3 +1,5 @@
+using System;
+
 public class Node{
     public int data;
     public Node next;
@@ -42,7 +44,6 @@ public class LinkedList{
 
         foreach(int val in vals){
             this.append(val);
-            this.length++;
         }
 
         return this.head;
@@ -59,7 +60,8 @@ public class LinkedList{
             }
         }
 
-        System.Console.WriteLine(listHolder);
+        string[] result = Array.ConvertAll(listHolder, x => x.ToString());
+        System.Console.WriteLine(String.Join(", ", listHolder));
     }
     
 }
