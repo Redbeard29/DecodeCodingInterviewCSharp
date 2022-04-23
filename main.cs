@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            PopularityAnalysisHelper.Helper();
+            // PopularityAnalysisHelper.Helper();
+            FetchTopMovies.Helper();
         }
     }
 }

@@ -9,7 +9,7 @@ class PopularityAnalysisHelper{
 
         foreach(var ratingsGroup in movieRatings){
 
-            if(popularityAnalysis.isIncreasingOrDecreasing(ratingsGroup)){
+            if(PopularityAnalysis.isIncreasingOrDecreasing(ratingsGroup)){
                 System.Console.WriteLine("This title's score is strictly increasing or decreasing.");
             }
 

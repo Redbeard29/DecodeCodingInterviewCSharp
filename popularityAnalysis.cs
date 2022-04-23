@@ -1,4 +1,4 @@
-class popularityAnalysis{
+class PopularityAnalysis{
     public static bool isIncreasingOrDecreasing(int[] ratings){
 
         bool increasing = true;

@@ -10,10 +10,12 @@ public class Node{
 }
 
 public class LinkedList{
-    public Node head = null;
+    public Node head;
+    public int length;
 
     public LinkedList(){
         this.head = null;
+        this.length = 0;
     }
 
     public Node append(int val){
@@ -21,6 +23,7 @@ public class LinkedList{
 
         if(this.head == null){
             this.head = newNode;
+            this.length++;
             return newNode;
         }
 
@@ -31,7 +34,7 @@ public class LinkedList{
         }
 
         currentNode.next = newNode;
-
+        this.length++;
         return currentNode.next;
     }
 
@@ -39,12 +42,25 @@ public class LinkedList{
 
         foreach(int val in vals){
             this.append(val);
+            this.length++;
         }
 
         return this.head;
 
     }
 
+    public void printListVals(){
+        int[] listHolder = new int[this.length];
+        Node currentNode = this.head;
+        for(int x = 0; x < this.length; x++){
+            listHolder[x] = currentNode.data;
+            if(currentNode.next != null){
+                currentNode = currentNode.next;
+            }
+        }
 
+        System.Console.WriteLine(listHolder);
+    }
     
 }
+
