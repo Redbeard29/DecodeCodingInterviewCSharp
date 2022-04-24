@@ -59,7 +59,6 @@ public class LinkedList{
                 currentNode = currentNode.next;
             }
         }
-
         string[] result = Array.ConvertAll(listHolder, x => x.ToString());
         System.Console.WriteLine(String.Join(", ", listHolder));
     }

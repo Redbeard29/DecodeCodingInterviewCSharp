@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // PopularityAnalysisHelper.Helper();
-            FetchTopMovies.Helper();
+            FetchTopMoviesHelper.Helper();
         }
     }
 }
