@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             // PopularityAnalysisHelper.Helper();
-            FetchTopMoviesHelper.Helper();
+            // FetchTopMoviesHelper.Helper();
+            BrowseRatings.getMaxRating();
         }
     }
 }
