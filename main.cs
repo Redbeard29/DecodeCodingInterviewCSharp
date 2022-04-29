@@ -6,7 +6,9 @@
         {
             // PopularityAnalysisHelper.Helper();
             // FetchTopMoviesHelper.Helper();
-            BrowseRatings.getMaxRating();
+            // BrowseRatings.getMaxRating();
+            GroupSimilarTitlesHelper.Helper();
+
         }
     }
 }
