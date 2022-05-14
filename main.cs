@@ -7,7 +7,8 @@
             // PopularityAnalysisHelper.Helper();
             // FetchTopMoviesHelper.Helper();
             // BrowseRatings.getMaxRating();
-            GroupSimilarTitlesHelper.Helper();
+            // GroupSimilarTitlesHelper.Helper();
+            SuggestItemsForFreeDeliveryHelper.Helper();
 
         }
     }
