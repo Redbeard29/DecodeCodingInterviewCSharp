@@ -9,7 +9,8 @@
             // BrowseRatings.getMaxRating();
             // GroupSimilarTitlesHelper.Helper();
             // SuggestItemsForFreeDeliveryHelper.Helper();
-            SuggestItemsForSpecialOfferHelper.Helper();
+            // SuggestItemsForSpecialOfferHelper.Helper();
+            UpsellProductsHelper.Helper();
 
         }
     }
