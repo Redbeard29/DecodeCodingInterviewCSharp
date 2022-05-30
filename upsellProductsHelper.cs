@@ -8,7 +8,7 @@ class UpsellProductsHelper{
         products.insertProduct(327);
         System.Console.WriteLine(products.getRandomProduct());
         products.removeProduct(190);
-        // products.removeProduct(1212);
+        products.removeProduct(1212);
         System.Console.WriteLine(products.getRandomProduct());
     }
 

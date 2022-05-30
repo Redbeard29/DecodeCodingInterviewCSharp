@@ -10,8 +10,8 @@
             // GroupSimilarTitlesHelper.Helper();
             // SuggestItemsForFreeDeliveryHelper.Helper();
             // SuggestItemsForSpecialOfferHelper.Helper();
-            UpsellProductsHelper.Helper();
-
+            // UpsellProductsHelper.Helper();
+            FetchMostRecentlyWatchedTitles.Helper();
         }
     }
 }
