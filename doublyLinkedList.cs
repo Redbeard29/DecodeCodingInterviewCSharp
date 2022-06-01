@@ -49,6 +49,53 @@ public class DoublyLinkedList{
         this.size++;
     }
 
+    public void removeFromTail(){
+        if(this.tail != null){
+            DLLNode newTail = this.tail.prev;
+
+            newTail.next = null;
+            this.tail.prev = null;
+            this.tail = newTail;
+
+            this.size--;
+        }
+
+        else{
+            System.Console.WriteLine("Tail is null, and therefore cannot be removed.");
+        }
+
+    }
+
+    public DLLNode moveFront(DLLNode node){
+
+        if(node == null){
+            System.Console.WriteLine("This node contains a null value - please pass in a node that contains data.");
+            return new DLLNode(null);
+        }
+
+        if(node == this.head){
+            return node;
+        }
+
+        else if(node == this.tail){
+            node.prev.next = null;
+            this.tail = node.prev;
+        }
+
+        else if(node != this.tail){
+            node.next.prev = node.prev;
+            node.prev.next = node.next;
+        }
+
+        node.next = this.head;
+        node.prev = null;
+        this.head.prev = node;
+        this.head = node;
+
+        return node;
+
+    }
+
     public void printList(){
         int[] listHolder = new int[this.size];
         DLLNode currentNode = this.head;
@@ -64,6 +111,14 @@ public class DoublyLinkedList{
             System.Console.WriteLine(item);
         }
 
+    }
+
+    public DLLNode getHead(){
+        return this.head;
+    }
+
+    public DLLNode getTail(){
+        return this.tail;
     }
 
     public void printListSize(){

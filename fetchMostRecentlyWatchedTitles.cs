@@ -10,6 +10,8 @@ class FetchMostRecentlyWatchedTitles{
         myDLL.insertAtHead(3);
         myDLL.insertAtHead(5);
         myDLL.printList();
+        myDLL.removeFromTail();
+        myDLL.printList();
     }
 
 }
