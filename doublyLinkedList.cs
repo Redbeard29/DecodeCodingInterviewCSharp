@@ -1,23 +1,27 @@
 public class DLLNode{
 
-    public int data;
+    public int movieID;
+    public string title;
     public DLLNode next;
     public DLLNode prev;
 
-    public DLLNode(int data){
-        this.data = data;
+    public DLLNode(int movieID, string title){
+        this.movieID = movieID;
+        this.title = title;
         this.next = null;
         this.prev = null;
     }
 
-    public DLLNode(int data, DLLNode next){
-        this.data = data;
+    public DLLNode(int movieID, string title, DLLNode next){
+        this.movieID = movieID;
+        this.title = title;
         this.next = next;
         this.prev = null;
     }
 
-    public DLLNode(int data, DLLNode next, DLLNode prev){
-        this.data = data;
+    public DLLNode(int movieID, string title, DLLNode next, DLLNode prev){
+        this.movieID = movieID;
+        this.title = title;
         this.next = next;
         this.prev = prev;
     }
@@ -35,8 +39,8 @@ public class DoublyLinkedList{
         this.size = 0;
     }
 
-    public void insertAtHead(int data){
-        DLLNode currentNode = new DLLNode(data);
+    public void insertAtHead(int movieID, string title){
+        DLLNode currentNode = new DLLNode(movieID, title);
         if(this.head == null){
             this.head = currentNode;
             this.tail = currentNode;
@@ -70,7 +74,7 @@ public class DoublyLinkedList{
 
         if(node == null){
             System.Console.WriteLine("This node contains a null value - please pass in a node that contains data.");
-            return new DLLNode(null);
+            return new DLLNode(-1, "Invalid movie");
         }
 
         if(node == this.head){
@@ -102,7 +106,7 @@ public class DoublyLinkedList{
         int idx = 0;
 
         while(currentNode != null){
-            listHolder[idx] = currentNode.data;
+            listHolder[idx] = currentNode.movieID;
             currentNode = currentNode.next;
             idx++;
         }
