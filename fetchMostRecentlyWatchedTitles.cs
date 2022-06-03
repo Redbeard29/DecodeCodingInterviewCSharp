@@ -9,8 +9,8 @@ class FetchMostRecentlyWatchedTitles{
         myDLL.insertAtHead(2, "Weekend at Bernie's");
         myDLL.insertAtHead(3, "2 Fast, 2 Furious");
         myDLL.insertAtHead(5, "Hustle & Flow");
-        myDLL.printList();
-        // myDLL.removeFromTail();
+        // myDLL.printList();
+        myDLL.removeFromTail();
         myDLL.moveFront(myDLL.getTail());
         myDLL.insertAtHead(15, "Encanto");
         myDLL.insertAtHead(35, "Frozen II");

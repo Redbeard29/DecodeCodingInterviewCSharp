@@ -74,7 +74,7 @@ public class DoublyLinkedList{
 
         if(node == null){
             System.Console.WriteLine("This node contains a null value - please pass in a node that contains data.");
-            return new DLLNode(-1, "Invalid movie");
+            return new DLLNode(-1, "Invalid movie title");
         }
 
         if(node == this.head){
@@ -101,18 +101,20 @@ public class DoublyLinkedList{
     }
 
     public void printList(){
-        int[] listHolder = new int[this.size];
+        string[,] listHolder = new string[this.size, 2];
         DLLNode currentNode = this.head;
         int idx = 0;
 
         while(currentNode != null){
-            listHolder[idx] = currentNode.movieID;
+            string movieIDAsString = currentNode.movieID.ToString();
+            listHolder[idx, 0] = movieIDAsString;
+            listHolder[idx, 1] = currentNode.title;
             currentNode = currentNode.next;
             idx++;
         }
 
-        foreach(int item in listHolder){
-            System.Console.WriteLine(item);
+        for(int x = 0; x < listHolder.GetLength(0); x++){
+            System.Console.WriteLine("{0}: {1}", listHolder[x, 0], listHolder[x, 1]);
         }
 
     }
