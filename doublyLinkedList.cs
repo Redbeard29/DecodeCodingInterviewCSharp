@@ -72,11 +72,6 @@ public class DoublyLinkedList{
 
     public DLLNode moveFront(DLLNode node){
 
-        if(node == null){
-            System.Console.WriteLine("This node contains a null value - please pass in a node that contains data.");
-            return new DLLNode(-1, "Invalid movie title");
-        }
-
         if(node == this.head){
             return node;
         }
@@ -125,6 +120,10 @@ public class DoublyLinkedList{
 
     public DLLNode getTail(){
         return this.tail;
+    }
+
+    public int getSize(){
+        return this.size;
     }
 
     public void printListSize(){

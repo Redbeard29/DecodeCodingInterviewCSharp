@@ -1,20 +1,17 @@
-using System;
-using System.Collections.Generic;
-
 class FetchMostRecentlyWatchedTitles{
 
     public static void Helper(){
-        DoublyLinkedList myDLL = new DoublyLinkedList();
-        myDLL.insertAtHead(1, "The Lion King");
-        myDLL.insertAtHead(2, "Weekend at Bernie's");
-        myDLL.insertAtHead(3, "2 Fast, 2 Furious");
-        myDLL.insertAtHead(5, "Hustle & Flow");
-        // myDLL.printList();
-        myDLL.removeFromTail();
-        myDLL.moveFront(myDLL.getTail());
-        myDLL.insertAtHead(15, "Encanto");
-        myDLL.insertAtHead(35, "Frozen II");
-        myDLL.printList();
+
+        LRUCache myCache = new LRUCache(5);
+        myCache.insertOrMoveToFront(1, "The Lion King");
+        myCache.insertOrMoveToFront(2, "Weekend at Bernie's");
+        myCache.insertOrMoveToFront(3, "2 Fast, 2 Furious");
+        myCache.insertOrMoveToFront(5, "Hustle & Flow");
+        myCache.insertOrMoveToFront(15, "Encanto");
+        myCache.insertOrMoveToFront(1, "The Lion King");
+        // myCache.printCacheItems();
+        myCache.insertOrMoveToFront(35, "Frozen II");
+        myCache.printCacheItems();
     }
 
 }
