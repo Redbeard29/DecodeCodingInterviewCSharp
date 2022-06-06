@@ -11,7 +11,8 @@
             // SuggestItemsForFreeDeliveryHelper.Helper();
             // SuggestItemsForSpecialOfferHelper.Helper();
             // UpsellProductsHelper.Helper();
-            FetchMostRecentlyWatchedTitles.Helper();
+            // FetchMostRecentlyWatchedTitles.Helper();
+            FlagWordsHelper.Helper();
         }
     }
 }
