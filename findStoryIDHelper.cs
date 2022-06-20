@@ -6,7 +6,7 @@ class FindStoryIdHelper{
         int[] thirdTestCase = {58, 79, 82, 83, 84, 1, 15, 35, 36, 37, 38, 39, 44};
         int[] fourthTestCase = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
-        System.Console.WriteLine(FindStoryId.findStoryId(fourthTestCase, 17));
+        System.Console.WriteLine(FindStoryId.findStoryId(secondTestCase, 4132));
     }
 
 }
