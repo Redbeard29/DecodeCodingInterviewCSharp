@@ -13,7 +13,8 @@
             // UpsellProductsHelper.Helper();
             // FetchMostRecentlyWatchedTitles.Helper();
             // FlagWordsHelper.Helper();
-            FindStoryIdHelper.Helper();
+            // FindStoryIdHelper.Helper();
+            MergeRecommendationsHelper.Helper();
         }
     }
 }
